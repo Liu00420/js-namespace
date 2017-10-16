@@ -20,7 +20,7 @@ var LIU00420 = {
             var c=parseInt(Math.random()*10);
             var color1 ="#"+a+b+c;
             var color2 ="#"+a+b+c;
-            ev.currentTarget.style.borderColor = Color1;
+            ev.currentTarget.style.borderColor = color1;
             ev.currentTarget.style.backgroundColor = color2;
             }
         }
