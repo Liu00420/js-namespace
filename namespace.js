@@ -18,8 +18,11 @@ var LIU00420 = {
             var a=parseInt(Math.random()*10);
             var b=parseInt(Math.random()*10);
             var c=parseInt(Math.random()*10);
+            var a2=parseInt(Math.random()*10);
+            var b2=parseInt(Math.random()*10);
+            var c2=parseInt(Math.random()*10);
             var color1 ="#"+a+b+c;
-            var color2 ="#"+a+b+c;
+            var color2 ="#"+a2+b2+c2;
             ev.currentTarget.style.borderColor = color1;
             ev.currentTarget.style.backgroundColor = color2;
             }
